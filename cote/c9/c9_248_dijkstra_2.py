@@ -1,3 +1,20 @@
+# dijkstra 알고리즘의 개선방식
+# 시간복잡도가 O(ElogV)
+# 힙(Heap) 자료구조를 사용
+# 특정 노드까지의 최단거리에 대한 정보를 힙에 담아서 처리하므로
+# 출발 노드로부터 가장 거리가 짧은 노드를 더욱 빠르게 찾을 수 있다.
+
+# 우선순위 큐(Priority Queue) : 가장 우선순위가 높은 데이터부터 추출
+# 구현시 내부적으로는 최소 힙(Min heap) 혹은 최대 힙(Max heap)을 이용
+# Min heap : 값이 낮은 데이터 먼저 삭제 // Max heap : 값이 큰 데이터 먼저 삭제
+# 파이썬의 Priority Queue 방식은 Min heap에 기반함
+# Min heap을 Max heap처럼 사굥할 때에는 우선순위에 해당하는 값에 음수부호(-)를
+# 붙여서 넣었다가 꺼낸 다음에 (-)를 붙여 원래 값으로 돌리는 방식도 사용 가능.
+
+
+
+
+
 import heapq
 import sys
 input = sys.stdin.readline
