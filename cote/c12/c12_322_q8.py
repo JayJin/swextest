@@ -1,4 +1,5 @@
 s = sorted([x for x in list(input())])
+print(s)
 
 cnt = 0
 num = 0
