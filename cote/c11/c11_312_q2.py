@@ -1,3 +1,5 @@
+# Q2. 곱하기 혹은 더하기
+
 s = [int(x) for x in list(input())]
 
 result = s[0]

@@ -1,3 +1,9 @@
+# Q3. 문자열 뒤집기
+# 백준 1439
+# https://www.acmicpc.net/problem/1439
+
+
+
 s = [int(x) for x in list(input())]
 
 cnt = 0

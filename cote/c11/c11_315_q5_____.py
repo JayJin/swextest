@@ -1,3 +1,5 @@
+# Q5. 볼링공 고르기
+
 n, m = map(int, input().split())
 weights = list(map(int, input().split()))
 

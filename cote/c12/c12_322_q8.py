@@ -1,3 +1,5 @@
+# Q8. 문자열 재정렬
+
 s = sorted([x for x in list(input())])
 print(s)
 

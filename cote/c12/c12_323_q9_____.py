@@ -1,3 +1,6 @@
+# Q9. 문자열 압축
+# https://programmers.co.kr/learn/courses/30/lessons/60057
+
 s = [x for x in list(input())]
 bucket = []
 bucket_size = 1

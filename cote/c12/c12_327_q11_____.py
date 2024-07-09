@@ -1,4 +1,9 @@
+# Q11. 뱀
+# https://www.acmicpc.net/problem/3109
 # 백준 3190번
+
+# 큐를 사용할 문제인지 꼭 판단할 것!!
+
 from collections import deque
 
 
